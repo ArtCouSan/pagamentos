@@ -10,7 +10,7 @@
 
 1.	Qual é a sua estratégia para modernizar esse legado?
 
-
+![alt text](https://github.com/ArtCouSan/pagamentos/blob/master/arquitetura.jpg)
  
 2.	Escolha uma funcionalidade prioritária para modernizar.
 
