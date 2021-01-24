@@ -35,15 +35,13 @@ Desacoplar o maximo possivel os dominios de acordo com o desenho da arquitetura 
 
 7.	Quais seriam as linguagem e tecnologias envolvidas na solução e por quê?
 
- Docker, Java e MongoDB
-
  - Java - Stack solicitada
  - Docker - Facilidade de deploy do ambiente em containers e imagens
  - MongoDB - Banco solicitado, alem de NoSQL, melhorando a perfomance de consulta nos dados
  - Jenkins - Esteira para CI/CD
  - Hadoop e MapReducer - Tratamento dos dados juntamento com processos
  - Projetos Netflix:
- - Hystrix: cuida da tolerancia de falhas e recuperacao
+ - Hystrix: Circuit Break
  - Eureka: Service Discovery
  - Zuul: API Gateway 
  - Ribbon: Load Balancing
