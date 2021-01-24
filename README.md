@@ -58,7 +58,7 @@ Como é utilizado microservico, a arquitetura será propicia para escalonamento 
 
 10.	Dado que é um projeto importantíssimo para a organização, como você faria para acelerar o desenvolvimento, entregando valor para o cliente em menor tempo?
 
-Entenderia as prioridades do cliente, as classificaria e organiazaria em entregas
+Entenderia as prioridades do cliente, as classificaria e organizaria em entregas
 
 # Docs
 
