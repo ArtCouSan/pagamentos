@@ -22,7 +22,7 @@ Para principios de demonstracao um microservico mais simples, porem em ambiente 
 
 4.	Quais seriam os requisitos imprescindíveis para essa funcionalidade?
 
-Construcao de microservico e 
+Construcao de microservico e um desenho bem contruido de dominios
 
 5.	Como será a convivência desta funcionalidade modernizada com o legado? (Visão técnica)
 
@@ -37,12 +37,12 @@ Desacoplar o maximo possivel os dominios de acordo com o desenho da arquitetura 
 
  Docker, Java e MongoDB
 
- Java - Stack solicitada
- Docker - Facilidade de deploy do ambiente em containers e imagens
- MongoDB - Banco solicitado, alem de NoSQL, melhorando a perfomance de consulta nos dados
- Jenkins - Esteira para CI/CD
- Hadoop e MapReducer - Tratamento dos dados juntamento com processos
- Projetos Netflix:
+ - Java - Stack solicitada
+ - Docker - Facilidade de deploy do ambiente em containers e imagens
+ - MongoDB - Banco solicitado, alem de NoSQL, melhorando a perfomance de consulta nos dados
+ - Jenkins - Esteira para CI/CD
+ - Hadoop e MapReducer - Tratamento dos dados juntamento com processos
+ - Projetos Netflix:
  - Hystrix: cuida da tolerancia de falhas e recuperacao
  - Eureka: Service Discovery
  - Zuul: API Gateway 
@@ -54,7 +54,7 @@ MongoDB
 
 9.	Como a performance será otimizada de um jeito que ficará fácil de escalar?
 
-Como é utilizado microservico, a arquitetura será propicia para escalonamento e melhorias
+Como é utilizado microservico, a arquitetura será propicia para escalonamento horizontal e melhorias
 
 10.	Dado que é um projeto importantíssimo para a organização, como você faria para acelerar o desenvolvimento, entregando valor para o cliente em menor tempo?
 
