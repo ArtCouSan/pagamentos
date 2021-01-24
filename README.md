@@ -22,27 +22,31 @@ Para principios de demonstracao um microservico mais simples, porem em ambiente 
 
 4.	Quais seriam os requisitos imprescindíveis para essa funcionalidade?
 
- Construcao de microservico e 
+Construcao de microservico e 
 
 5.	Como será a convivência desta funcionalidade modernizada com o legado? (Visão técnica)
+
+Criaria uma camada de abstracao para trafegar com o legado, seja microservicos proprios para isso
 
 6.	Quais serão os fatores críticos para o sucesso da modernização dessa funcionalidade?
 facilitar a implementação de novas features.
 
+Desacoplar o maximo possivel os dominios de acordo com o desenho da arquitetura e de negocio
+
 7.	Quais seriam as linguagem e tecnologias envolvidas na solução e por quê?
 
-Docker, Java e MongoDB
+ Docker, Java e MongoDB
 
-Java - Stack solicitada
-Docker - Facilidade de deploy do ambiente em containers e imagens
-MongoDB - Banco solicitado, alem de NoSQL, melhorando a perfomance de consulta nos dados
-Jenkins - Esteira para CI/CD
-Hadoop e MapReducer - Tratamento dos dados juntamento com processos
-Projetos Netflix:
-- Hystrix: cuida da tolerancia de falhas e recuperacao
-- Eureka: Service Discovery
-- Zuul: API Gateway 
-- Ribbon: Load Balancing
+ Java - Stack solicitada
+ Docker - Facilidade de deploy do ambiente em containers e imagens
+ MongoDB - Banco solicitado, alem de NoSQL, melhorando a perfomance de consulta nos dados
+ Jenkins - Esteira para CI/CD
+ Hadoop e MapReducer - Tratamento dos dados juntamento com processos
+ Projetos Netflix:
+ - Hystrix: cuida da tolerancia de falhas e recuperacao
+ - Eureka: Service Discovery
+ - Zuul: API Gateway 
+ - Ribbon: Load Balancing
 
 8.	Como você irá armazenar esses dados (tecnologias e modelos)?
 
