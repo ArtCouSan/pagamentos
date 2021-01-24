@@ -2,9 +2,7 @@
 
 # Necessario
 
-- JDK 11
 - Docker Engine
-- Maven
 
 # Perguntas
 
