@@ -5,9 +5,9 @@ spring:
     name: pagamentos
   data:
     mongodb:
-      host: localhost
-      port: 27017
-      database: local
+      host: <host>
+      port: <port>
+      database: <database>
 #eureka:
 #  client:
 #    healthcheck:
