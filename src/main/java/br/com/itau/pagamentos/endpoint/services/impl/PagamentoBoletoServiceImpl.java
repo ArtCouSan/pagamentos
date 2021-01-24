@@ -2,6 +2,7 @@ package br.com.itau.pagamentos.endpoint.services.impl;
 
 import br.com.itau.pagamentos.endpoint.dto.request.RequestVerificarValorPagamentoBoletoDTO;
 import br.com.itau.pagamentos.endpoint.dto.response.ResponseVerificarValorPagamentoBoletoDTO;
+import br.com.itau.pagamentos.endpoint.enums.MensagemPagamentoBoleto;
 import br.com.itau.pagamentos.endpoint.model.PagamentoBoleto;
 import br.com.itau.pagamentos.endpoint.repository.PagamentoBoletoRepository;
 import br.com.itau.pagamentos.endpoint.services.PagamentoBoletoService;
@@ -41,12 +42,12 @@ public class PagamentoBoletoServiceImpl implements PagamentoBoletoService {
             if (valorVerificado.compareTo(valorMaximo) < 1) {
 
                 response.setEhValido(Boolean.TRUE);
-                response.setMensagem("Valor dentro do limite");
+                response.setMensagem(MensagemPagamentoBoleto.PAGAMENTO_VALIDO.getDescricao());
 
             } else {
 
                 response.setEhValido(Boolean.FALSE);
-                response.setMensagem("Valor maior que o limite");
+                response.setMensagem(MensagemPagamentoBoleto.PAGAMENTO_INVALIDO.getDescricao());
 
             }
 
