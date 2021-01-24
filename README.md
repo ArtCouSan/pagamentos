@@ -2,6 +2,7 @@
 
 # Necessario
 
+- Java 11
 - Docker Engine
 
 # Perguntas
